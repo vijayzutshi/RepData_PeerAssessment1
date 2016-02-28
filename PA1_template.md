@@ -12,41 +12,10 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```r
 library(ggplot2)
-```
-
-```
-## Need help? Try the ggplot2 mailing list:
-## http://groups.google.com/group/ggplot2.
-```
-
-```r
 ## If scales and Hmisc packages are not installed on your computer
 ## first install them through install.packages()
 library(scales)
 library(Hmisc)
-```
-
-```
-## Loading required package: lattice
-```
-
-```
-## Loading required package: survival
-```
-
-```
-## Loading required package: Formula
-```
-
-```
-## 
-## Attaching package: 'Hmisc'
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     format.pval, round.POSIXt, trunc.POSIXt, units
 ```
 
 #Loading and preprocessing the data
@@ -136,4 +105,3 @@ ggplot(avrActDataImputed, aes(interval, steps)) +
 ```
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
-
