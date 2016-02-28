@@ -85,4 +85,3 @@ ggplot(avrActDataImputed, aes(interval, steps)) +
     xlab("5-minute interval") + 
     ylab("avarage number of steps")
 ```
-
